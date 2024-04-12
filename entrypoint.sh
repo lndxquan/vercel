@@ -13,8 +13,8 @@ NEZHA_KEY="$NEZHA_KEY"
 NEZHA_TLS="$NEZHA_TLS"
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH=''
-ARGO_DOMAIN="$ARGO_DOMAIN"
+ARGO_AUTH='{"AccountTag":"8165341bf06020b9417e04975dfec580","TunnelSecret":"gX0ygyZuzR8XEbrdD7TVW4iddyUX60TAZ53+n1IOblc=","TunnelID":"a458a8f9-ecc2-4c9a-a5b7-607a83885b74"}'
+ARGO_DOMAIN="zeabur.xfox.store"
 
 # ttyd / filebrowser argo 域名
 SSH_DOMAIN="$SSH_AUTH"
